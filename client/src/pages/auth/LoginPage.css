@@ -1,0 +1,135 @@
+/* LoginPage.css (shared for Login and Register) */
+.logo-image {
+    width: 200px;     /* or 150px if you want even smaller */
+    height: 200px;
+    object-fit: contain; /* or 'cover' if you want cropped */
+    border-radius: 12px;  /* Smooth futuristic style */
+  }
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0a192f, #1e3a8a); /* dark futuristic gradient */
+  }
+  
+  .container {
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.3);
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #0f172a;
+  }
+  /* Existing hero-image styles */
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* NEW: Make a small image */
+  .small-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Keeps the image nicely cropped */
+    border-radius: 12px; /* (Optional) Smooth rounded corners */
+  }
+  
+  .login-left, .login-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-left {
+    padding: 2rem;
+    color: #e0f2fe;
+  }
+  
+  .edstock-logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #38bdf8; /* Light blue neon */
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px #38bdf8;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #94a3b8;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #1e293b;
+    color: #e2e8f0;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .input-field:focus {
+    background-color: #334155;
+    box-shadow: 0 0 10px #38bdf8;
+  }
+  
+  .input-error {
+    border: 1px solid #f87171;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 0.9rem;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #2563eb, #38bdf8);
+    border: none;
+  }
+  
+  .login-button:hover {
+    background: linear-gradient(135deg, #38bdf8, #2563eb);
+  }
+  
+  .register-link {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .register-link a {
+    color: #38bdf8;
+    text-decoration: underline;
+  }
+  
+  .login-right {
+    position: relative;
+    background-color: #1e293b;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hero-caption {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    color: #cbd5e1;
+    font-size: 1.2rem;
+  }
+  
